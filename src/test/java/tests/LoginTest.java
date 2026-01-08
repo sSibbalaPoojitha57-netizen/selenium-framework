@@ -14,4 +14,5 @@ public class LoginTest extends BaseTest {
         // use the Page Object
         new LoginPage(getDriver()).login("test", "test");
     }
+
 }
